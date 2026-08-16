@@ -5,7 +5,7 @@ import { guides } from "@/lib/guides";
 const meta = guides.find((g) => g.slug === "how-to-save-tiktok-videos-on-iphone")!;
 
 export const metadata: Metadata = {
-  title: `${meta.title} \u2014 Skyler`,
+  title: `${meta.title} — Skyler`,
   description: meta.dek,
 };
 

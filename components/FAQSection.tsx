@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     q: "Does it actually remove the watermark?",
-    a: "Yes \u2014 you get the clean version TikTok generates internally, with no username or logo overlay.",
+    a: "Yes — you get the clean version TikTok generates internally, with no username or logo overlay.",
   },
   {
     q: "What quality do downloads come in?",
@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "Can I download private videos?",
-    a: "No \u2014 only public TikToks can be fetched, same as anything you could already watch without logging in.",
+    a: "No — only public TikToks can be fetched, same as anything you could already watch without logging in.",
   },
 ];
 

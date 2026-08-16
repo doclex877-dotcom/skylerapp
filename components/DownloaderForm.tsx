@@ -70,7 +70,7 @@ export default function DownloaderForm() {
           type="text"
           value={url}
           onChange={(e) => setUrl(e.target.value)}
-          placeholder="Paste a TikTok link\u2026"
+          placeholder="Paste a TikTok link…"
           className="flex-1 bg-transparent px-4 py-3 rounded-xl text-text placeholder:text-text-dim outline-none"
           aria-label="TikTok link"
         />
@@ -79,7 +79,7 @@ export default function DownloaderForm() {
           disabled={status === "loading"}
           className="bg-lime text-bg font-display font-semibold px-6 py-3 rounded-xl hover:brightness-95 active:scale-95 transition disabled:opacity-60 disabled:cursor-not-allowed whitespace-nowrap"
         >
-          {status === "loading" ? "Grabbing\u2026" : "Grab it"}
+          {status === "loading" ? "Grabbing…" : "Grab it"}
         </button>
       </form>
 

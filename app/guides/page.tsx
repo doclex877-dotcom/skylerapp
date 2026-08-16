@@ -5,7 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 import { guides } from "@/lib/guides";
 
 export const metadata: Metadata = {
-  title: "Guides \u2014 Skyler",
+  title: "Guides — Skyler",
   description: "Everything you need to know about saving and downloading TikTok videos.",
 };
 
@@ -16,7 +16,7 @@ export default function GuidesIndex() {
       <main className="flex-1 max-w-2xl mx-auto px-4 py-10 w-full">
         <h1 className="font-display text-4xl font-semibold">Guides</h1>
         <p className="text-text-dim mt-3">
-          Short, practical reads on saving TikTok videos \u2014 no fluff.
+          Short, practical reads on saving TikTok videos — no fluff.
         </p>
 
         <div className="mt-8 flex flex-col gap-4">

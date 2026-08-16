@@ -11,7 +11,7 @@ const siteUrl = "https://skylerai.xyz";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Skyler \u2014 TikTok Video Downloader, No Watermark",
+  title: "Skyler — TikTok Video Downloader, No Watermark",
   description:
     "Paste a TikTok link and Skyler grabs the MP4 for you in seconds, watermark-free. Free, no sign-up, no app install.",
   keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "tiktok to mp4",
   ],
   openGraph: {
-    title: "Skyler \u2014 TikTok Video Downloader",
+    title: "Skyler — TikTok Video Downloader",
     description: "Paste a link, Skyler grabs your TikTok, watermark-free. Free and fast.",
     url: siteUrl,
     siteName: "Skyler",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "Skyler \u2014 TikTok Video Downloader",
+    title: "Skyler — TikTok Video Downloader",
     description: "Paste a link, Skyler grabs your TikTok, watermark-free. Free and fast.",
   },
   icons: {

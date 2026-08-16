@@ -51,7 +51,7 @@ export async function GET(req: NextRequest) {
   } catch (err) {
     console.error("download route failed:", err instanceof Error ? err.message : err);
     return NextResponse.json(
-      { error: "Download failed. The link may have expired \u2014 try fetching it again." },
+      { error: "Download failed. The link may have expired — try fetching it again." },
       { status: 500 }
     );
   }

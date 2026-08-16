@@ -5,7 +5,7 @@ import { guides } from "@/lib/guides";
 const meta = guides.find((g) => g.slug === "is-it-legal-to-download-tiktok-videos")!;
 
 export const metadata: Metadata = {
-  title: `${meta.title} \u2014 Skyler`,
+  title: `${meta.title} — Skyler`,
   description: meta.dek,
 };
 
@@ -20,7 +20,7 @@ export default function Page() {
 
       <h2>TikTok&apos;s Terms of Service</h2>
       <p>
-        TikTok&apos;s terms don&apos;t prohibit saving a video for personal use \u2014 in fact,
+        TikTok&apos;s terms don&apos;t prohibit saving a video for personal use — in fact,
         TikTok itself has a built-in save button. What their terms do restrict is stripping
         attribution, watermarks, or branding for redistribution, and commercial use of
         creators&apos; content without permission. Using a third-party tool to get a
@@ -57,7 +57,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Your own content:</strong> downloading your own TikToks watermark-free is
-          unambiguously fine \u2014 it&apos;s your video, and many creators do this specifically to
+          unambiguously fine — it&apos;s your video, and many creators do this specifically to
           repost clean cuts elsewhere.
         </li>
       </ul>

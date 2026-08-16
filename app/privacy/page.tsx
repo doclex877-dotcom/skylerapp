@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import StaticPageLayout from "@/components/StaticPageLayout";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy \u2014 Skyler",
+  title: "Privacy Policy — Skyler",
   description: "How Skyler handles your data.",
 };
 
@@ -19,7 +19,7 @@ export default function PrivacyPage() {
       <p>
         Skyler doesn&apos;t require an account, so we don&apos;t collect your name, email, or any
         login credentials. We don&apos;t ask for your TikTok username or password, and we never
-        touch your TikTok account in any way \u2014 we only read publicly available video data,
+        touch your TikTok account in any way — we only read publicly available video data,
         the same as anyone opening the video in a browser.
       </p>
       <p>
@@ -57,7 +57,7 @@ export default function PrivacyPage() {
       <p>
         Beyond what AdSense sets for ad delivery, Skyler itself doesn&apos;t use cookies to track
         you across visits. Your browser may still cache assets like images and fonts locally for
-        performance \u2014 that&apos;s standard browser behavior, not tracking.
+        performance — that&apos;s standard browser behavior, not tracking.
       </p>
 
       <h2>Children&apos;s privacy</h2>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import StaticPageLayout from "@/components/StaticPageLayout";
 
 export const metadata: Metadata = {
-  title: "Contact \u2014 Skyler",
+  title: "Contact — Skyler",
   description: "Get in touch about bugs, takedown requests, or anything else.",
 };
 
@@ -21,7 +21,7 @@ export default function ContactPage() {
 
       <h2>Copyright / takedown requests</h2>
       <p>
-        Skyler doesn&apos;t host or store any video files \u2014 it fetches directly from TikTok
+        Skyler doesn&apos;t host or store any video files — it fetches directly from TikTok
         at the moment you request a download and doesn&apos;t keep a copy afterward. If
         you&apos;re a rights holder with a concern about a specific video, the fastest path is
         usually TikTok&apos;s own copyright tools, since that&apos;s where the actual video is
