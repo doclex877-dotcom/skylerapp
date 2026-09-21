@@ -11,6 +11,9 @@ export default function SiteHeader() {
         <Link href="/guides" className="hover:text-text transition">
           Guides
         </Link>
+        <Link href="/stories" className="hover:text-text transition">
+          Stories
+        </Link>
         <Link href="/#faq" className="hover:text-text transition">
           FAQ
         </Link>

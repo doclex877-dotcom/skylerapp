@@ -5,6 +5,7 @@ import AdSlot from "@/components/AdSlot";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { guides } from "@/lib/guides";
+import { stories } from "@/lib/stories";
 
 export default function Home() {
   return (
@@ -63,6 +64,32 @@ export default function Home() {
           <div className="text-center mt-5">
             <Link href="/guides" className="text-lime text-sm font-medium hover:underline">
               See all guides &rarr;
+            </Link>
+          </div>
+        </section>
+
+        <section className="max-w-2xl mx-auto px-4 py-10">
+          <h2 className="font-display text-2xl font-semibold text-center mb-2">Stories</h2>
+          <p className="text-text-dim text-sm text-center mb-6">
+            How TikTok, Facebook, and WhatsApp actually got started.
+          </p>
+          <div className="grid sm:grid-cols-3 gap-3">
+            {stories.slice(0, 3).map((s) => (
+              <Link
+                key={s.slug}
+                href={`/stories/${s.slug}`}
+                className="bg-panel border border-white/10 rounded-xl p-4 hover:border-pink/40 transition"
+              >
+                <p className="text-lime font-display text-xs uppercase tracking-wide mb-1">
+                  {s.founded}
+                </p>
+                <h3 className="font-display font-medium text-sm leading-snug">{s.title}</h3>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-5">
+            <Link href="/stories" className="text-lime text-sm font-medium hover:underline">
+              See all stories &rarr;
             </Link>
           </div>
         </section>

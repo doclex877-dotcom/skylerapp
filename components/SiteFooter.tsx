@@ -8,6 +8,9 @@ export default function SiteFooter() {
         <a href="/guides" className="hover:text-text transition">
           Guides
         </a>
+        <a href="/stories" className="hover:text-text transition">
+          Stories
+        </a>
         <a href="/contact" className="hover:text-text transition">
           Contact
         </a>
