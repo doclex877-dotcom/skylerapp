@@ -1,0 +1,37 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow6a" cx="20%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#7B2FF7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7B2FF7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow6b" cx="82%" cy="55%" r="55%">
+      <stop offset="0%" stop-color="#DFFF3C" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#DFFF3C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="420" fill="#171226"/>
+  <rect width="800" height="420" fill="url(#glow6a)"/>
+  <rect width="800" height="420" fill="url(#glow6b)"/>
+
+  <!-- left: cracked podcast mic -->
+  <g transform="translate(150,210)" opacity="0.55">
+    <rect x="-22" y="-70" width="44" height="80" rx="22" fill="none" stroke="#B8AED6" stroke-width="4"/>
+    <path d="M-38 -10 a38 38 0 0 0 76 0" fill="none" stroke="#B8AED6" stroke-width="4"/>
+    <line x1="0" y1="28" x2="0" y2="55" stroke="#B8AED6" stroke-width="4"/>
+    <line x1="-25" y1="55" x2="25" y2="55" stroke="#B8AED6" stroke-width="4"/>
+    <line x1="-20" y1="-55" x2="20" y2="10" stroke="#FF2E7E" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="150" y="330" text-anchor="middle" fill="#B8AED6" font-family="'IBM Plex Mono', monospace" font-size="15">Odeo, killed by iTunes</text>
+
+  <path d="M290 210 L510 210" stroke="#DFFF3C" stroke-width="4" stroke-dasharray="10 10" fill="none"/>
+  <path d="M498 195 L516 210 L498 225" fill="none" stroke="#DFFF3C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- right: simple bird + chat bubble -->
+  <g transform="translate(650,210)">
+    <circle cx="0" cy="0" r="44" fill="#DFFF3C" opacity="0.15"/>
+    <path d="M-35 10 C-35 -20 -5 -35 25 -25 C25 -25 15 -25 15 -18 C30 -15 35 -5 30 5 C20 25 -15 30 -35 10 Z"
+          fill="#DFFF3C"/>
+    <circle cx="15" cy="-18" r="3" fill="#171226"/>
+  </g>
+  <text x="650" y="330" text-anchor="middle" fill="#F6F2FF" font-family="'IBM Plex Mono', monospace" font-size="15">"just setting up my twttr"</text>
+</svg>

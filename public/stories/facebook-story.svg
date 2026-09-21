@@ -1,0 +1,43 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow4a" cx="20%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FF2E7E" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FF2E7E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow4b" cx="82%" cy="55%" r="55%">
+      <stop offset="0%" stop-color="#7B2FF7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7B2FF7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="420" fill="#171226"/>
+  <rect width="800" height="420" fill="url(#glow4a)"/>
+  <rect width="800" height="420" fill="url(#glow4b)"/>
+
+  <!-- left: dorm window, laptop glow, x mark (facemash shut down) -->
+  <g transform="translate(150,210)" opacity="0.55">
+    <rect x="-50" y="-70" width="100" height="120" rx="6" fill="none" stroke="#B8AED6" stroke-width="4"/>
+    <line x1="0" y1="-70" x2="0" y2="50" stroke="#B8AED6" stroke-width="3"/>
+    <line x1="-50" y1="-10" x2="50" y2="-10" stroke="#B8AED6" stroke-width="3"/>
+    <line x1="-30" y1="35" x2="30" y2="65" stroke="#FF2E7E" stroke-width="6" stroke-linecap="round"/>
+    <line x1="30" y1="35" x2="-30" y2="65" stroke="#FF2E7E" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <text x="150" y="330" text-anchor="middle" fill="#B8AED6" font-family="'IBM Plex Mono', monospace" font-size="15">Facemash, shut down in days</text>
+
+  <path d="M290 210 L510 210" stroke="#DFFF3C" stroke-width="4" stroke-dasharray="10 10" fill="none"/>
+  <path d="M498 195 L516 210 L498 225" fill="none" stroke="#DFFF3C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- right: network of connected nodes -->
+  <g transform="translate(650,210)">
+    <circle cx="0" cy="0" r="44" fill="#DFFF3C" opacity="0.12"/>
+    <circle cx="0" cy="-40" r="10" fill="#DFFF3C"/>
+    <circle cx="-45" cy="20" r="10" fill="#FF2E7E"/>
+    <circle cx="45" cy="20" r="10" fill="#7B2FF7"/>
+    <circle cx="0" cy="45" r="10" fill="#F6F2FF"/>
+    <line x1="0" y1="-40" x2="-45" y2="20" stroke="#B8AED6" stroke-width="2.5"/>
+    <line x1="0" y1="-40" x2="45" y2="20" stroke="#B8AED6" stroke-width="2.5"/>
+    <line x1="-45" y1="20" x2="0" y2="45" stroke="#B8AED6" stroke-width="2.5"/>
+    <line x1="45" y1="20" x2="0" y2="45" stroke="#B8AED6" stroke-width="2.5"/>
+    <line x1="-45" y1="20" x2="45" y2="20" stroke="#B8AED6" stroke-width="2.5"/>
+  </g>
+  <text x="650" y="330" text-anchor="middle" fill="#F6F2FF" font-family="'IBM Plex Mono', monospace" font-size="15">thefacebook.com</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow7a" cx="20%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FF2E7E" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FF2E7E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow7b" cx="82%" cy="55%" r="55%">
+      <stop offset="0%" stop-color="#7B2FF7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7B2FF7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="420" fill="#171226"/>
+  <rect width="800" height="420" fill="url(#glow7a)"/>
+  <rect width="800" height="420" fill="url(#glow7b)"/>
+
+  <!-- left: fading/disappearing photo -->
+  <g transform="translate(150,210)">
+    <rect x="-45" y="-35" width="90" height="70" rx="8" fill="none" stroke="#B8AED6" stroke-width="4" opacity="0.5"/>
+    <circle cx="-15" cy="-5" r="10" fill="none" stroke="#B8AED6" stroke-width="3" opacity="0.35"/>
+    <path d="M-45 25 L-15 -5 L10 15 L30 -10 L45 5" fill="none" stroke="#B8AED6" stroke-width="3" opacity="0.2"/>
+  </g>
+  <text x="150" y="330" text-anchor="middle" fill="#B8AED6" font-family="'IBM Plex Mono', monospace" font-size="15">gone in seconds</text>
+
+  <path d="M290 210 L510 210" stroke="#DFFF3C" stroke-width="4" stroke-dasharray="10 10" fill="none"/>
+  <path d="M498 195 L516 210 L498 225" fill="none" stroke="#DFFF3C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- right: generic friendly ghost shape + small gavel -->
+  <g transform="translate(650,210)">
+    <circle cx="0" cy="0" r="44" fill="#DFFF3C" opacity="0.12"/>
+    <path d="M-32 10 C-32 -28 -18 -42 0 -42 C18 -42 32 -28 32 10 L22 2 L11 14 L0 2 L-11 14 L-22 2 Z"
+          fill="#F6F2FF"/>
+    <circle cx="-11" cy="-8" r="4" fill="#171226"/>
+    <circle cx="11" cy="-8" r="4" fill="#171226"/>
+  </g>
+  <g transform="translate(650,290) rotate(-25)">
+    <rect x="-22" y="-6" width="44" height="12" rx="3" fill="#FF2E7E"/>
+    <rect x="-4" y="-22" width="8" height="20" rx="2" fill="#FF2E7E"/>
+  </g>
+  <text x="650" y="330" text-anchor="middle" fill="#F6F2FF" font-family="'IBM Plex Mono', monospace" font-size="15">$157.5M settlement</text>
+</svg>

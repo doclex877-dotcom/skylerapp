@@ -1,0 +1,38 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow3a" cx="20%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#7B2FF7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7B2FF7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow3b" cx="82%" cy="55%" r="55%">
+      <stop offset="0%" stop-color="#FF2E7E" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FF2E7E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="420" fill="#171226"/>
+  <rect width="800" height="420" fill="url(#glow3a)"/>
+  <rect width="800" height="420" fill="url(#glow3b)"/>
+
+  <!-- left: bottle + checklist (Burbn, overloaded features) -->
+  <g transform="translate(150,210)" opacity="0.55">
+    <path d="M-15 -70 L-15 -50 L-28 -20 L-28 70 L28 70 L28 -20 L15 -50 L15 -70 Z"
+          fill="none" stroke="#B8AED6" stroke-width="4" stroke-linejoin="round"/>
+    <line x1="-15" y1="-70" x2="15" y2="-70" stroke="#B8AED6" stroke-width="4"/>
+    <line x1="-18" y1="10" x2="18" y2="10" stroke="#B8AED6" stroke-width="3"/>
+    <line x1="-18" y1="30" x2="18" y2="30" stroke="#B8AED6" stroke-width="3"/>
+    <line x1="-18" y1="50" x2="18" y2="50" stroke="#B8AED6" stroke-width="3"/>
+  </g>
+  <text x="150" y="330" text-anchor="middle" fill="#B8AED6" font-family="'IBM Plex Mono', monospace" font-size="15">too many features</text>
+
+  <path d="M290 210 L510 210" stroke="#DFFF3C" stroke-width="4" stroke-dasharray="10 10" fill="none"/>
+  <path d="M498 195 L516 210 L498 225" fill="none" stroke="#DFFF3C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- right: camera, just the one feature -->
+  <g transform="translate(650,210)">
+    <circle cx="0" cy="0" r="42" fill="#DFFF3C" opacity="0.15"/>
+    <rect x="-45" y="-30" width="90" height="65" rx="10" fill="#1C1630" stroke="#FF2E7E" stroke-width="4"/>
+    <rect x="-15" y="-42" width="30" height="14" rx="4" fill="#1C1630" stroke="#FF2E7E" stroke-width="4"/>
+    <circle cx="0" cy="3" r="20" fill="none" stroke="#DFFF3C" stroke-width="4"/>
+  </g>
+  <text x="650" y="330" text-anchor="middle" fill="#F6F2FF" font-family="'IBM Plex Mono', monospace" font-size="15">just the photo</text>
+</svg>

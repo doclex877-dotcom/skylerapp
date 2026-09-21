@@ -9,10 +9,12 @@ export default function StoryLayout({
   meta,
   children,
   lessons,
+  image,
 }: {
   meta: StoryMeta;
   children: React.ReactNode;
   lessons: string[];
+  image?: string;
 }) {
   return (
     <div className="flex flex-col flex-1 bg-noise">
@@ -31,6 +33,15 @@ export default function StoryLayout({
           </h1>
           <p className="text-text-dim mt-3 text-lg">{meta.dek}</p>
 
+          {image && (
+            /* eslint-disable-next-line @next/next/no-img-element */
+            <img
+              src={image}
+              alt={meta.title}
+              className="w-full rounded-2xl mt-6 border border-white/10"
+            />
+          )}
+
           <div className="mt-8 prose prose-invert prose-headings:font-display prose-headings:font-semibold prose-a:text-lime prose-strong:text-text max-w-none">
             {children}
           </div>
@@ -38,7 +49,7 @@ export default function StoryLayout({
           <div className="mt-10 p-5 rounded-2xl bg-panel border border-white/10">
             <div className="flex items-center gap-3 mb-4">
               <Mascot state="happy" size={48} />
-              <p className="font-display text-lg">Skyler&apos;s Take</p>
+              <p className="font-display text-lg">Skyler's Take</p>
             </div>
             <ul className="flex flex-col gap-2.5">
               {lessons.map((lesson, i) => (

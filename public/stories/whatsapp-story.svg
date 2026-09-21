@@ -1,0 +1,38 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow5a" cx="20%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FF2E7E" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FF2E7E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow5b" cx="82%" cy="55%" r="55%">
+      <stop offset="0%" stop-color="#DFFF3C" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#DFFF3C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="420" fill="#171226"/>
+  <rect width="800" height="420" fill="url(#glow5a)"/>
+  <rect width="800" height="420" fill="url(#glow5b)"/>
+
+  <!-- left: envelope with rejected stamp -->
+  <g transform="translate(150,210)" opacity="0.6">
+    <rect x="-55" y="-38" width="110" height="76" rx="6" fill="none" stroke="#B8AED6" stroke-width="4"/>
+    <path d="M-55 -38 L0 5 L55 -38" fill="none" stroke="#B8AED6" stroke-width="4" stroke-linejoin="round"/>
+    <g transform="rotate(-12)">
+      <rect x="-40" y="-14" width="80" height="26" rx="4" fill="none" stroke="#FF2E7E" stroke-width="3"/>
+      <text x="0" y="6" text-anchor="middle" fill="#FF2E7E" font-family="'IBM Plex Mono', monospace" font-size="13" font-weight="700">REJECTED</text>
+    </g>
+  </g>
+  <text x="150" y="330" text-anchor="middle" fill="#B8AED6" font-family="'IBM Plex Mono', monospace" font-size="15">two job applications, 2009</text>
+
+  <path d="M290 210 L510 210" stroke="#DFFF3C" stroke-width="4" stroke-dasharray="10 10" fill="none"/>
+  <path d="M498 195 L516 210 L498 225" fill="none" stroke="#DFFF3C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- right: phone with chat bubble -->
+  <g transform="translate(650,210)">
+    <circle cx="0" cy="0" r="44" fill="#DFFF3C" opacity="0.15"/>
+    <rect x="-40" y="-65" width="80" height="130" rx="18" fill="#1C1630" stroke="#FF2E7E" stroke-width="4"/>
+    <path d="M-22 -18 h34 a10 10 0 0 1 10 10 v14 a10 10 0 0 1 -10 10 h-24 l-14 12 v-12 h-4 a10 10 0 0 1 -10 -10 v-14 a10 10 0 0 1 10 -10 Z"
+          fill="#DFFF3C"/>
+  </g>
+  <text x="650" y="330" text-anchor="middle" fill="#F6F2FF" font-family="'IBM Plex Mono', monospace" font-size="15">$19,000,000,000</text>
+</svg>

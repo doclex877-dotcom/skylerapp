@@ -1,0 +1,35 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow2a" cx="20%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FF2E7E" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FF2E7E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2b" cx="82%" cy="55%" r="55%">
+      <stop offset="0%" stop-color="#DFFF3C" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#DFFF3C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="420" fill="#171226"/>
+  <rect width="800" height="420" fill="url(#glow2a)"/>
+  <rect width="800" height="420" fill="url(#glow2b)"/>
+
+  <!-- left: heart with x, dating idea crossed out -->
+  <g transform="translate(150,210)" opacity="0.55">
+    <path d="M0 40 C-60 0 -60 -60 -10 -60 C0 -60 0 -50 0 -50 C0 -50 0 -60 10 -60 C60 -60 60 0 0 40 Z"
+          fill="none" stroke="#B8AED6" stroke-width="4"/>
+    <line x1="-45" y1="-45" x2="45" y2="20" stroke="#FF2E7E" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <text x="150" y="330" text-anchor="middle" fill="#B8AED6" font-family="'IBM Plex Mono', monospace" font-size="15">video dating, 2005</text>
+
+  <path d="M290 210 L510 210" stroke="#DFFF3C" stroke-width="4" stroke-dasharray="10 10" fill="none"/>
+  <path d="M498 195 L516 210 L498 225" fill="none" stroke="#DFFF3C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- right: video camera / play -->
+  <g transform="translate(650,210)">
+    <rect x="-65" y="-40" width="90" height="80" rx="12" fill="#1C1630" stroke="#FF2E7E" stroke-width="4"/>
+    <path d="M25 -20 L60 -38 L60 38 L25 20 Z" fill="#1C1630" stroke="#FF2E7E" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="-20" cy="0" r="26" fill="#DFFF3C" opacity="0.15"/>
+    <path d="M-32 -14 L-6 0 L-32 14 Z" fill="#DFFF3C"/>
+  </g>
+  <text x="650" y="330" text-anchor="middle" fill="#F6F2FF" font-family="'IBM Plex Mono', monospace" font-size="15">"me at the zoo"</text>
+</svg>
